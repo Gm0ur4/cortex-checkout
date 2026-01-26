@@ -497,29 +497,29 @@ Adicionar Chat IA Agora
 
 # Bônus
 st.markdown("""<div class="bonus-section">
-<h3>🎁 Bônus Exclusivos do Lançamento</h3>
+<h3>🎁 Bônus exclusivos</h3>
 
 <div class="bonus-item">
     <div class="bonus-icon">📚</div>
     <div class="bonus-content">
-        <h4>PDF Completo do Curso</h4>
-        <p>Baixe todo o conteúdo em PDF para estudar offline e revisar quando quiser.</p>
+        <h4>Acesso vitalício</h4>
+        <p>Todo o conteúdo, incluindo suas atualizações estará para sempre disponível para ver e revisar quando quiser.</p>
     </div>
 </div>
 
 <div class="bonus-item">
     <div class="bonus-icon">🤖</div>
     <div class="bonus-content">
-        <h4>Acesso ao Chat IA (Primeiros 30 dias)</h4>
-        <p>Teste o Chat IA gratuitamente por 30 dias e veja o poder da análise comportamental.</p>
+        <h4>Acesso ao Chat IA</h4>
+        <p>Também vitalício, pagametno único, seu assistente pessoal de inteligência emocional e comportamento humano 24H/ dia</p>
     </div>
 </div>
 
 <div class="bonus-item">
     <div class="bonus-icon">📖</div>
     <div class="bonus-content">
-        <h4>Biblioteca de Recursos</h4>
-        <p>Acesso a templates, guias práticos e materiais complementares para potencializar seu aprendizado.</p>
+        <h4>Suporte rápido e humano</h4>
+        <p>Suporte para responder todas suas dúvidas sendo respondidas por um time de especialistas</p>
     </div>
 </div>
 </div>""", unsafe_allow_html=True)
@@ -567,23 +567,23 @@ st.markdown("""<div class="faq-section">
 <h2>Perguntas Frequentes</h2>
 
 <div class="faq-item">
-    <div class="faq-question">❓ Quanto tempo leva para ver resultados?</div>
+    <div class="faq-question">❓ Qual e-mail de suporte para tirar minhas dúvidas</div>
     <div class="faq-answer">
-    Muitos clientes começam a notar mudanças na primeira semana. Os 21 dias são estruturados para uma transformação progressiva e sustentável.
+    Nosso time está 100% disponível no e-mail suporte@cortexinteligencia.com
     </div>
 </div>
 
 <div class="faq-item">
     <div class="faq-question">❓ Posso acessar o conteúdo para sempre?</div>
     <div class="faq-answer">
-    Sim! Você tem acesso vitalício à plataforma Cortex IA. Pode revisar o conteúdo quantas vezes quiser e receberá todas as atualizações futuras.
+    Sim! Você tem acesso vitalício à plataforma de estudos. Pode revisar o conteúdo quantas vezes quiser e receberá todas as atualizações futuras.
     </div>
 </div>
 
 <div class="faq-item">
-    <div class="faq-question">❓ O Chat IA realmente funciona?</div>
+    <div class="faq-question">❓ O Chat IA pode ser acessado por onde?</div>
     <div class="faq-answer">
-    O Chat IA é treinado com os principais conceitos de comportamento humano. Ele fornece análises personalizadas e planos de ação práticos baseados em seus inputs.
+    Você pode acessar a IA de qualquer lugar: celular, computador, tablet ou qualquer dispositivo com internet. Ela funciona integrada à maior plataforma de IA do mundo (OpenAI), garantindo acesso simples e imediato pelo navegador ou app, sem instalações complicadas.
     </div>
 </div>
 
