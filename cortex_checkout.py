@@ -440,13 +440,13 @@ Comprar Agora
 
 with col2:
     st.markdown("""<div class="product-card featured">
-<h3 class="product-title">Aprendizado Cortex + Chat IA</h3>
+<h3 class="product-title">Plataforma de aprendizado Cortex + Chat IA</h3>
 
 <p class="product-description">
 Aprenda + Receba análises comportamentais personalizadas com nossa IA especializada. A melhor combinação para transformação.
 </p>
 
-<div class="price">R$ 89,90</div>
+<div class="price">R$ 79,90</div>
 <p class="price-small">Acesso vitalício a ambos</p>
 
 <ul class="features-list">
@@ -496,125 +496,117 @@ Adicionar Chat IA Agora
 
 
 # Bônus
-st.markdown("""
-    <div class="bonus-section">
-        <h3>🎁 Bônus Exclusivos do Lançamento</h3>
-        
-        <div class="bonus-item">
-            <div class="bonus-icon">📚</div>
-            <div class="bonus-content">
-                <h4>PDF Completo do Curso</h4>
-                <p>Baixe todo o conteúdo em PDF para estudar offline e revisar quando quiser.</p>
-            </div>
-        </div>
-        
-        <div class="bonus-item">
-            <div class="bonus-icon">🤖</div>
-            <div class="bonus-content">
-                <h4>Acesso ao Chat IA (Primeiros 30 dias)</h4>
-                <p>Teste o Chat IA gratuitamente por 30 dias e veja o poder da análise comportamental.</p>
-            </div>
-        </div>
-        
-        <div class="bonus-item">
-            <div class="bonus-icon">📖</div>
-            <div class="bonus-content">
-                <h4>Biblioteca de Recursos</h4>
-                <p>Acesso a templates, guias práticos e materiais complementares para potencializar seu aprendizado.</p>
-            </div>
-        </div>
+st.markdown("""<div class="bonus-section">
+<h3>🎁 Bônus Exclusivos do Lançamento</h3>
+
+<div class="bonus-item">
+    <div class="bonus-icon">📚</div>
+    <div class="bonus-content">
+        <h4>PDF Completo do Curso</h4>
+        <p>Baixe todo o conteúdo em PDF para estudar offline e revisar quando quiser.</p>
     </div>
-    """, unsafe_allow_html=True)
+</div>
+
+<div class="bonus-item">
+    <div class="bonus-icon">🤖</div>
+    <div class="bonus-content">
+        <h4>Acesso ao Chat IA (Primeiros 30 dias)</h4>
+        <p>Teste o Chat IA gratuitamente por 30 dias e veja o poder da análise comportamental.</p>
+    </div>
+</div>
+
+<div class="bonus-item">
+    <div class="bonus-icon">📖</div>
+    <div class="bonus-content">
+        <h4>Biblioteca de Recursos</h4>
+        <p>Acesso a templates, guias práticos e materiais complementares para potencializar seu aprendizado.</p>
+    </div>
+</div>
+</div>""", unsafe_allow_html=True)
+
 
 # Depoimentos
-st.markdown("""
-    <div class="testimonials">
-        <h2>O que dizem nossos clientes</h2>
-        <div class="testimonials-grid">
-        
-            <div class="testimonial-card">
-                <div class="stars">⭐⭐⭐⭐⭐</div>
-                <p class="testimonial-text">
-                    "Cortex IA mudou completamente minha forma de entender as pessoas. As atividades práticas são incríveis e o Chat IA me ajudou a resolver conflitos que carregava há anos."
-                </p>
-                <div class="testimonial-author">Maria Silva</div>
-                <div class="testimonial-role">Empreendedora</div>
-            </div>
-            
-            <div class="testimonial-card">
-                <div class="stars">⭐⭐⭐⭐⭐</div>
-                <p class="testimonial-text">
-                    "Não esperava que seria tão prático e aplicável. Os 21 dias me deram clareza sobre meus padrões de comportamento e como mudá-los."
-                </p>
-                <div class="testimonial-author">João Santos</div>
-                <div class="testimonial-role">Profissional de RH</div>
-            </div>
-            
-            <div class="testimonial-card">
-                <div class="stars">⭐⭐⭐⭐⭐</div>
-                <p class="testimonial-text">
-                    "O Chat IA é sensacional! Fiz um diagnóstico e recebi um plano de ação que realmente funciona. Já estou vendo resultados em meus relacionamentos."
-                </p>
-                <div class="testimonial-author">Ana Costa</div>
-                <div class="testimonial-role">Coach de Vida</div>
-            </div>
-            
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
+st.markdown("""<div class="testimonials">
+<h2>O que dizem nossos clientes</h2>
+
+<div class="testimonials-grid">
+
+<div class="testimonial-card">
+    <div class="stars">⭐⭐⭐⭐⭐</div>
+    <p class="testimonial-text">
+    "Cortex IA mudou completamente minha forma de entender as pessoas. As atividades práticas são incríveis e o Chat IA me ajudou a resolver conflitos que carregava há anos."
+    </p>
+    <div class="testimonial-author">Maria Silva</div>
+    <div class="testimonial-role">Empreendedora</div>
+</div>
+
+<div class="testimonial-card">
+    <div class="stars">⭐⭐⭐⭐⭐</div>
+    <p class="testimonial-text">
+    "Não esperava que seria tão prático e aplicável. Os 21 dias me deram clareza sobre meus padrões de comportamento e como mudá-los."
+    </p>
+    <div class="testimonial-author">João Santos</div>
+    <div class="testimonial-role">Profissional de RH</div>
+</div>
+
+<div class="testimonial-card">
+    <div class="stars">⭐⭐⭐⭐⭐</div>
+    <p class="testimonial-text">
+    "O Chat IA é sensacional! Fiz um diagnóstico e recebi um plano de ação que realmente funciona. Já estou vendo resultados em meus relacionamentos."
+    </p>
+    <div class="testimonial-author">Ana Costa</div>
+    <div class="testimonial-role">Coach de Vida</div>
+</div>
+
+</div>
+</div>""", unsafe_allow_html=True)
+
 
 # FAQ
-st.markdown("""
-    <div class="faq-section">
-        <h2>Perguntas Frequentes</h2>
-        
-        <div class="faq-item">
-            <div class="faq-question">❓ Quanto tempo leva para ver resultados?</div>
-            <div class="faq-answer">
-                Muitos clientes começam a notar mudanças na primeira semana. Os 21 dias são estruturados para uma transformação progressiva e sustentável.
-            </div>
-        </div>
-        
-        <div class="faq-item">
-            <div class="faq-question">❓ Posso acessar o conteúdo para sempre?</div>
-            <div class="faq-answer">
-                Sim! Você tem acesso vitalício à plataforma Cortex IA. Pode revisar o conteúdo quantas vezes quiser e receberá todas as atualizações futuras.
-            </div>
-        </div>
-        
-        <div class="faq-item">
-            <div class="faq-question">❓ O Chat IA realmente funciona?</div>
-            <div class="faq-answer">
-                O Chat IA é treinado com os principais conceitos de comportamento humano. Ele fornece análises personalizadas e planos de ação práticos baseados em seus inputs.
-            </div>
-        </div>
-        
-        <div class="faq-item">
-            <div class="faq-question">❓ Qual é a forma de pagamento?</div>
-            <div class="faq-answer">
-                Aceitamos todos os métodos de pagamento através da Eduzz: cartão de crédito, débito, Pix, boleto e outras opções.
-            </div>
-        </div>
-        
-        <div class="faq-item">
-            <div class="faq-question">❓ Posso comprar apenas o Chat IA sem o curso?</div>
-            <div class="faq-answer">
-                Sim! O Chat IA é um produto independente. Você pode comprar apenas o curso, apenas o Chat ou ambos com desconto no combo.
-            </div>
-        </div>
-        
+st.markdown("""<div class="faq-section">
+<h2>Perguntas Frequentes</h2>
+
+<div class="faq-item">
+    <div class="faq-question">❓ Quanto tempo leva para ver resultados?</div>
+    <div class="faq-answer">
+    Muitos clientes começam a notar mudanças na primeira semana. Os 21 dias são estruturados para uma transformação progressiva e sustentável.
     </div>
-    """, unsafe_allow_html=True)
+</div>
+
+<div class="faq-item">
+    <div class="faq-question">❓ Posso acessar o conteúdo para sempre?</div>
+    <div class="faq-answer">
+    Sim! Você tem acesso vitalício à plataforma Cortex IA. Pode revisar o conteúdo quantas vezes quiser e receberá todas as atualizações futuras.
+    </div>
+</div>
+
+<div class="faq-item">
+    <div class="faq-question">❓ O Chat IA realmente funciona?</div>
+    <div class="faq-answer">
+    O Chat IA é treinado com os principais conceitos de comportamento humano. Ele fornece análises personalizadas e planos de ação práticos baseados em seus inputs.
+    </div>
+</div>
+
+<div class="faq-item">
+    <div class="faq-question">❓ Qual é a forma de pagamento?</div>
+    <div class="faq-answer">
+    Aceitamos todos os métodos de pagamento através da Eduzz: cartão de crédito, débito, Pix, boleto e outras opções.
+    </div>
+</div>
+
+<div class="faq-item">
+    <div class="faq-question">❓ Posso comprar apenas o Chat IA sem o curso?</div>
+    <div class="faq-answer">
+    Sim! O Chat IA é um produto independente. Você pode comprar apenas o curso, apenas o Chat ou ambos com desconto no combo.
+    </div>
+</div>
+
+</div>""", unsafe_allow_html=True)
 
 # Footer
 st.markdown("""
     <div class="footer">
-        <p>© 2024 Cortex IA. Todos os direitos reservados.</p>
-        <p>
-            <a href="#">Política de Privacidade</a> | 
-            <a href="#">Termos de Uso</a> | 
-            <a href="#">Contato</a>
-        </p>
+        <p>© 2026 Cortex IA. Todos os direitos reservados.</p>
     </div>
     """, unsafe_allow_html=True)
 
