@@ -433,7 +433,7 @@ Aprenda os princípios fundamentais do comportamento humano através de 21 dias 
 </ul>
 
 <button class="btn-checkout" onclick="window.open('https://seulink.eduzz.com/cortex-ia', '_blank')">
-Comprar Agora
+Quero acessar agora
 </button>
 </div>""", unsafe_allow_html=True)
 
@@ -455,7 +455,6 @@ Aprenda + Receba análises comportamentais personalizadas com nossa IA especiali
 <li>Plano de ação customizado</li>
 <li>Análise de padrões comportamentais</li>
 <li>Diagnóstico personalizado</li>
-<li>Acesso vitalício a ambas plataformas</li>
 <li>Suporte 7 dias por semana</li>
 </ul>
 
