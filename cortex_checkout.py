@@ -439,32 +439,33 @@ Comprar Agora
 
 
 with col2:
-    st.markdown("""
-        <div class="product-card featured">
-            <h3 class="product-title">Aprendizado Cortex + Chat IA</h3>
-            <p class="product-description">
-                Aprenda + Receba análises comportamentais personalizadas com nossa IA especializada. A melhor combinação para transformação.
-            </p>
-            <div class="price">R$ 89,90</div>
-            <p class="price-small">Acesso vitalício a ambos</p>
-            
-            <ul class="features-list">
-                <li>Acesso a todo aprendizado da plataforma</li>
-                <li>Chat IA com análise comportamental</li>
-                <li>Plano de ação customizado</li>
-                <li>Análise de padrões comportamentais</li>
-                <li>Diagnóstico personalizado</li>
-                <li>Acesso vitalício a ambas plataformas</li>
-                <li>Suporte 7 dias por semana</li>
-            </ul>
-            
-            <button class="btn-checkout" onclick="window.open('https://seulink.eduzz.com/cortex-ia-completo', '_blank')">
-                Comprar Combo
-            </button>
-        </div>
-        """, unsafe_allow_html=True)
+    st.markdown("""<div class="product-card featured">
+<h3 class="product-title">Aprendizado Cortex + Chat IA</h3>
 
-st.markdown('</div>', unsafe_allow_html=True)
+<p class="product-description">
+Aprenda + Receba análises comportamentais personalizadas com nossa IA especializada. A melhor combinação para transformação.
+</p>
+
+<div class="price">R$ 89,90</div>
+<p class="price-small">Acesso vitalício a ambos</p>
+
+<ul class="features-list">
+<li>Acesso a todo aprendizado da plataforma</li>
+<li>Chat IA com análise comportamental</li>
+<li>Plano de ação customizado</li>
+<li>Análise de padrões comportamentais</li>
+<li>Diagnóstico personalizado</li>
+<li>Acesso vitalício a ambas plataformas</li>
+<li>Suporte 7 dias por semana</li>
+</ul>
+
+<button class="btn-checkout" onclick="window.open('https://seulink.eduzz.com/cortex-ia-completo', '_blank')">
+Comprar Combo
+</button>
+</div>""", unsafe_allow_html=True)
+
+st.markdown("</div>", unsafe_allow_html=True)
+
 
 # Order Bump
 st.markdown("""<div class="order-bump">
