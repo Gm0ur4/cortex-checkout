@@ -503,7 +503,7 @@ st.markdown("""<div class="bonus-section">
     <div class="bonus-icon">📚</div>
     <div class="bonus-content">
         <h4>Acesso vitalício</h4>
-        <p>Todo o conteúdo, incluindo suas atualizações estará para sempre disponível para ver e revisar quando quiser.</p>
+        <p>Todo o conteúdo, incluindo suas atualizações, estará disponível para ver e revisar quando quiser.</p>
     </div>
 </div>
 
@@ -511,7 +511,7 @@ st.markdown("""<div class="bonus-section">
     <div class="bonus-icon">🤖</div>
     <div class="bonus-content">
         <h4>Acesso ao Chat IA</h4>
-        <p>Também vitalício, pagametno único, seu assistente pessoal de inteligência emocional e comportamento humano 24H/ dia</p>
+        <p>Também vitalício, pagamento único, seu assistente pessoal de inteligência emocional e comportamento humano 24h por dia.</p>
     </div>
 </div>
 
@@ -519,7 +519,7 @@ st.markdown("""<div class="bonus-section">
     <div class="bonus-icon">📖</div>
     <div class="bonus-content">
         <h4>Suporte rápido e humano</h4>
-        <p>Suporte para responder todas suas dúvidas sendo respondidas por um time de especialistas</p>
+        <p>Suporte para responder todas as suas dúvidas, com atendimento de um time de especialistas.</p>
     </div>
 </div>
 </div>""", unsafe_allow_html=True)
@@ -534,28 +534,28 @@ st.markdown("""<div class="testimonials">
 <div class="testimonial-card">
     <div class="stars">⭐⭐⭐⭐⭐</div>
     <p class="testimonial-text">
-    "Cortex IA mudou completamente minha forma de entender as pessoas. As atividades práticas são incríveis e o Chat IA me ajudou a resolver conflitos que carregava há anos."
+    "Sempre gostei de estudar sobre nosso comportamento. Em 21 dias aprendi MUITO sobre linguagem corporal. Consigo agora compreender diversas situações."
     </p>
-    <div class="testimonial-author">Maria Silva</div>
-    <div class="testimonial-role">Empreendedora</div>
+    <div class="testimonial-author">Ricardo Murata</div>
+    <div class="testimonial-role">Empreendedor</div>
 </div>
 
 <div class="testimonial-card">
     <div class="stars">⭐⭐⭐⭐⭐</div>
     <p class="testimonial-text">
-    "Não esperava que seria tão prático e aplicável. Os 21 dias me deram clareza sobre meus padrões de comportamento e como mudá-los."
+    "As atividades práticas são ótimas, nada de teoria chata e tudo aquilo que já sabemos."
     </p>
-    <div class="testimonial-author">João Santos</div>
+    <div class="testimonial-author">Luiza Sabino</div>
     <div class="testimonial-role">Profissional de RH</div>
 </div>
 
 <div class="testimonial-card">
     <div class="stars">⭐⭐⭐⭐⭐</div>
     <p class="testimonial-text">
-    "O Chat IA é sensacional! Fiz um diagnóstico e recebi um plano de ação que realmente funciona. Já estou vendo resultados em meus relacionamentos."
+    "O Chat IA é sensacional! Tirei diversas dúvidas que carregava e recebi um norte que funcionou para mim"
     </p>
     <div class="testimonial-author">Ana Costa</div>
-    <div class="testimonial-role">Coach de Vida</div>
+    <div class="testimonial-role">Estudante</div>
 </div>
 
 </div>
@@ -569,7 +569,7 @@ st.markdown("""<div class="faq-section">
 <div class="faq-item">
     <div class="faq-question">❓ Qual e-mail de suporte para tirar minhas dúvidas</div>
     <div class="faq-answer">
-    Nosso time está 100% disponível no e-mail suporte@cortexinteligencia.com
+    Nosso time está 100% disponível para você no e-mail suporte@cortexinteligencia.com
     </div>
 </div>
 
