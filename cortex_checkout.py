@@ -425,11 +425,12 @@ Aprenda os princípios fundamentais do comportamento humano através de 21 dias 
 <p class="price-small">Acesso vitalício</p>
 
 <ul class="features-list">
-<li>21 dias de atividades práticas</li>
+<li>21 dias de aprendizado puro</li>
+<li>Diversas atividades práticas para aplicação imediata</li>
 <li>Conteúdo baseado em comportamento humano</li>
 <li>Acesso vitalício à plataforma</li>
 <li>Atualizações futuras incluídas</li>
-<li>Suporte por email</li>
+<li>Suporte humano por email</li>
 </ul>
 
 <button class="btn-checkout" onclick="window.open('https://seulink.eduzz.com/cortex-ia', '_blank')">
