@@ -404,7 +404,7 @@ st.markdown("""
 dias_restantes = 3
 st.markdown(f"""
     <div class="urgency-banner">
-        ⏰ OFERTA ESPECIAL DE FEVEREIRO!
+        ⏰ OFERTA ESPECIAL DE CAMPANHA!
     </div>
     """, unsafe_allow_html=True)
 
@@ -414,28 +414,29 @@ st.markdown('<div class="products-grid">', unsafe_allow_html=True)
 col1, col2 = st.columns(2)
 
 with col1:
-    st.markdown("""
-        <div class="product-card">
-            <h3 class="product-title">Plataforma de aprendizado Cortex</h3>
-            <p class="product-description">
-                Aprenda os princípios fundamentais do comportamento humano através de 21 dias de atividades práticas e transformadoras.
-            </p>
-            <div class="price">R$ 39,90</div>
-            <p class="price-small">Acesso vitalício</p>
-            
-            <ul class="features-list">
-                <li>21 dias de atividades práticas</li>
-                <li>Conteúdo baseado em comportamento humano</li>
-                <li>Acesso vitalício à plataforma</li>
-                <li>Atualizações futuras incluídas</li>
-                <li>Suporte por email</li>
-            </ul>
-            
-            <button class="btn-checkout" onclick="window.open('https://seulink.eduzz.com/cortex-ia', '_blank')">
-                Comprar Agora
-            </button>
-        </div>
-        """, unsafe_allow_html=True)
+    st.markdown("""<div class="product-card">
+<h3 class="product-title">Plataforma de aprendizado Cortex</h3>
+
+<p class="product-description">
+Aprenda os princípios fundamentais do comportamento humano através de 21 dias de atividades práticas e transformadoras.
+</p>
+
+<div class="price">R$ 39,90</div>
+<p class="price-small">Acesso vitalício</p>
+
+<ul class="features-list">
+<li>21 dias de atividades práticas</li>
+<li>Conteúdo baseado em comportamento humano</li>
+<li>Acesso vitalício à plataforma</li>
+<li>Atualizações futuras incluídas</li>
+<li>Suporte por email</li>
+</ul>
+
+<button class="btn-checkout" onclick="window.open('https://seulink.eduzz.com/cortex-ia', '_blank')">
+Comprar Agora
+</button>
+</div>""", unsafe_allow_html=True)
+
 
 with col2:
     st.markdown("""
