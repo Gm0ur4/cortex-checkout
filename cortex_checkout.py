@@ -467,29 +467,32 @@ with col2:
 st.markdown('</div>', unsafe_allow_html=True)
 
 # Order Bump
-st.markdown("""
-    <div class="order-bump">
-        <h3>🤖 Adicione somente a IA por apenas R$ 59,90</h3>
-        <p>
-            Caso queira, adicione somente nossa IA com análise comportamental e receba diagnósticos personalizados, planos de ação e acompanhamento contínuo.
-        </p>
-        <div class="bump-price">
-            R$ 59,90
-            <span class="bump-original">R$ 79,90</span>
-            <span class="bump-savings">-25% OFF</span>
-        </div>
-        <p style="color: #666; margin: 15px 0;">
-            ✓ Análise de padrões comportamentais<br>
-            ✓ Diagnóstico personalizado<br>
-            ✓ Soluções para problemas específicos<br>
-            ✓ Plano de ação customizado<br>
-            ✓ Acesso vitalício
-        </p>
-        <button class="btn-checkout" onclick="window.open('https://seulink.eduzz.com/cortex-ia-chat', '_blank')">
-            Adicionar Chat IA Agora
-        </button>
-    </div>
-    """, unsafe_allow_html=True)
+st.markdown("""<div class="order-bump">
+<h3>🤖 Adicione somente a IA por apenas R$ 59,90</h3>
+
+<p>
+Caso queira, adicione somente nossa IA com análise comportamental e receba diagnósticos personalizados, planos de ação e acompanhamento contínuo.
+</p>
+
+<div class="bump-price">
+R$ 59,90
+<span class="bump-original">R$ 79,90</span>
+<span class="bump-savings">-25% OFF</span>
+</div>
+
+<p style="color: #666; margin: 15px 0;">
+✓ Análise de padrões comportamentais<br>
+✓ Diagnóstico personalizado<br>
+✓ Soluções para problemas específicos<br>
+✓ Plano de ação customizado<br>
+✓ Acesso vitalício
+</p>
+
+<button class="btn-checkout" onclick="window.open('https://seulink.eduzz.com/cortex-ia-chat', '_blank')">
+Adicionar Chat IA Agora
+</button>
+</div>""", unsafe_allow_html=True)
+
 
 # Bônus
 st.markdown("""
