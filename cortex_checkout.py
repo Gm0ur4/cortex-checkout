@@ -459,7 +459,7 @@ Aprenda + Receba análises comportamentais personalizadas com nossa IA especiali
 </ul>
 
 <button class="btn-checkout" onclick="window.open('https://seulink.eduzz.com/cortex-ia-completo', '_blank')">
-Comprar Combo
+Garantir a experiência completa
 </button>
 </div>""", unsafe_allow_html=True)
 
