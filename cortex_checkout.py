@@ -444,7 +444,7 @@ with col2:
 <h3 class="product-title">Plataforma de aprendizado Cortex + Chat IA</h3>
 
 <p class="product-description">
-Aprenda + Receba análises comportamentais personalizadas com nossa IA especializada. A melhor combinação para transformação.
+Aprenda e receba análises comportamentais personalizadas com nossa IA especializada. A melhor combinação para transformação.
 </p>
 
 <div class="price">R$ 79,90</div>
