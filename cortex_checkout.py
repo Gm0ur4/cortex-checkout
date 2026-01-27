@@ -568,7 +568,7 @@ st.markdown("""<div class="faq-section">
 <div class="faq-item">
     <div class="faq-question">❓ Qual e-mail de suporte para tirar minhas dúvidas</div>
     <div class="faq-answer">
-    Nosso time está 100% disponível para você no e-mail suporte@cortexinteligencia.com
+    Nosso time está 100% disponível para você no e-mail suporte@inteligenciacortex.com.br
     </div>
 </div>
 
