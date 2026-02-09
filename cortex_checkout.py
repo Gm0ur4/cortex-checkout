@@ -1223,7 +1223,7 @@ comparison_html = """
             <td class="comparison-feature">Qualidade profissional</td>
             <td class="comparison-check">✅ Sim</td>
             <td class="comparison-check">✅ Sim</td>
-            <td class="comparison-check">⚠️ Depende</td>
+            <td class="comparison-check">⚠️ Vai depender do seu conhecimento</td>
         </tr>
         <tr>
             <td class="comparison-feature">Facilidade</td>
