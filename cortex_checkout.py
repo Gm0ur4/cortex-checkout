@@ -220,6 +220,134 @@ custom_css = """
         text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     }
     
+    /* CARROSSEL HORIZONTAL */
+    .carousel-section {
+        padding: 100px 40px;
+        max-width: 1400px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .carousel-title {
+        font-size: 56px;
+        font-weight: 900;
+        margin-bottom: 20px;
+        line-height: 1.2;
+        color: white;
+        text-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    }
+    
+    .carousel-description {
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.95);
+        line-height: 1.8;
+        margin-bottom: 50px;
+        max-width: 700px;
+        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .carousel-container {
+        position: relative;
+        overflow: hidden;
+        border-radius: 25px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    }
+    
+    .carousel-wrapper {
+        display: flex;
+        gap: 20px;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        padding: 20px;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+        backdrop-filter: blur(10px);
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        border-radius: 25px;
+        scrollbar-width: thin;
+        scrollbar-color: rgba(255, 190, 11, 0.5) rgba(255, 255, 255, 0.1);
+    }
+    
+    .carousel-wrapper::-webkit-scrollbar {
+        height: 8px;
+    }
+    
+    .carousel-wrapper::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+    }
+    
+    .carousel-wrapper::-webkit-scrollbar-thumb {
+        background: linear-gradient(180deg, #FF006E, #FFBE0B);
+        border-radius: 10px;
+        transition: all 0.3s ease;
+    }
+    
+    .carousel-wrapper::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(180deg, #FFBE0B, #FF006E);
+    }
+    
+    .carousel-item {
+        flex: 0 0 350px;
+        min-width: 350px;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        overflow: hidden;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+        cursor: pointer;
+        position: relative;
+    }
+    
+    .carousel-item:hover {
+        transform: translateY(-15px) scale(1.05);
+        box-shadow: 0 25px 60px rgba(255, 0, 110, 0.4);
+        border-color: rgba(255, 255, 255, 0.4);
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.1) 100%);
+    }
+    
+    .carousel-image {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        display: block;
+        background: linear-gradient(135deg, #FF006E, #8338EC);
+    }
+    
+    .carousel-content {
+        padding: 20px;
+    }
+    
+    .carousel-item-title {
+        font-size: 20px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 10px;
+        text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    .carousel-item-desc {
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.85);
+        line-height: 1.6;
+    }
+    
+    .carousel-badge {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        background: linear-gradient(135deg, #FF006E, #FB5607);
+        color: white;
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        box-shadow: 0 5px 15px rgba(255, 0, 110, 0.3);
+    }
+    
     /* CARDS ULTRA VIBRANTES */
     .cards-grid {
         display: grid;
@@ -564,6 +692,10 @@ custom_css = """
             font-size: 36px;
         }
         
+        .carousel-title {
+            font-size: 36px;
+        }
+        
         .hero-section {
             padding: 80px 20px;
             clip-path: none;
@@ -571,6 +703,15 @@ custom_css = """
         
         .section {
             padding: 60px 20px;
+        }
+        
+        .carousel-section {
+            padding: 60px 20px;
+        }
+        
+        .carousel-item {
+            flex: 0 0 280px;
+            min-width: 280px;
         }
         
         .pricing-card.featured {
@@ -608,6 +749,79 @@ hero_html = """
 </div>
 """
 st.markdown(hero_html, unsafe_allow_html=True)
+
+# ==================== SEÇÃO DE CARROSSEL HORIZONTAL ====================
+st.markdown("""
+<div class="carousel-section">
+    <div class="carousel-title">Veja nossos <span style="background: linear-gradient(135deg, #FFBE0B, #FB5607); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">templates em ação</span></div>
+    <div class="carousel-description">
+        Deslize para o lado e explore todos os templates disponíveis. Cada um é uma obra de arte pronta para usar!
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
+# Dados dos templates
+templates_data = [
+    {
+        "title": "Consultório Dentário",
+        "desc": "Landing page profissional com agendamento online integrado",
+        "category": "Saúde"
+    },
+    {
+        "title": "E-commerce Fashion",
+        "desc": "Loja online completa com carrinho e pagamento integrado",
+        "category": "Vendas"
+    },
+    {
+        "title": "Criador de Conteúdo",
+        "desc": "Portfolio e venda de cursos com área de membros",
+        "category": "Digital"
+    },
+    {
+        "title": "Salão de Beleza",
+        "desc": "Agendamento, galeria de trabalhos e promoções",
+        "category": "Serviços"
+    },
+    {
+        "title": "Academia de Fitness",
+        "desc": "Planos, horários de aulas e área de alunos",
+        "category": "Fitness"
+    },
+    {
+        "title": "Restaurante",
+        "desc": "Cardápio interativo, reservas e delivery integrado",
+        "category": "Alimentos"
+    },
+    {
+        "title": "Imobiliária",
+        "desc": "Catálogo de imóveis com filtros avançados",
+        "category": "Imóveis"
+    },
+    {
+        "title": "Agência Digital",
+        "desc": "Portfolio de projetos e formulário de contato",
+        "category": "Agência"
+    },
+]
+
+# Renderizar carrossel com HTML puro
+carousel_html = '<div class="carousel-wrapper">'
+for template in templates_data:
+    carousel_html += f"""
+    <div class="carousel-item">
+        <div class="carousel-badge">{template['category']}</div>
+        <div class="carousel-image" style="background: linear-gradient(135deg, #FF006E, #8338EC); display: flex; align-items: center; justify-content: center; font-size: 80px;">
+            📱
+        </div>
+        <div class="carousel-content">
+            <div class="carousel-item-title">{template['title']}</div>
+            <div class="carousel-item-desc">{template['desc']}</div>
+        </div>
+    </div>
+    """
+carousel_html += '</div>'
+
+st.markdown(carousel_html, unsafe_allow_html=True)
 
 # ==================== SEÇÃO DE BENEFÍCIOS ====================
 st.markdown("""
