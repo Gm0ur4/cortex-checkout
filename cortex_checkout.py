@@ -749,9 +749,9 @@ st.markdown(hero_html, unsafe_allow_html=True)
 # ==================== SEÇÃO DE CARROSSEL HORIZONTAL ====================
 st.markdown("""
 <div class="carousel-section">
-    <div class="carousel-title">Conheça alguns dos nossos templates profissionais.</span></div>
+    <div class="carousel-title">Conheça alguns dos nossos templates prontos</span></div>
     <div class="carousel-description">
-        Escolha o seu, customize e lance hoje mesmo. Dezenas de opções para todos os tipos de negócio!
+        Escolha o seu, customize e lance hoje mesmo seu site!
     </div>
 </div>
 """, unsafe_allow_html=True)
