@@ -749,9 +749,9 @@ st.markdown(hero_html, unsafe_allow_html=True)
 # ==================== SEÇÃO DE CARROSSEL HORIZONTAL ====================
 st.markdown("""
 <div class="carousel-section">
-    <div class="carousel-title">Veja nossos <span style="background: linear-gradient(135deg, #FFBE0B, #FB5607); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">templates em ação</span></div>
+    <div class="carousel-title">Conheça alguns dos nossos templates profissionais.</span></div>
     <div class="carousel-description">
-        Deslize para o lado e explore todos os templates disponíveis. Cada um é uma obra de arte pronta para usar!
+        Escolha o seu, customize e lance hoje mesmo. Dezenas de opções para todos os tipos de negócio!
     </div>
 </div>
 """, unsafe_allow_html=True)
