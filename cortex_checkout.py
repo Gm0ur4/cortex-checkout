@@ -816,12 +816,20 @@ carousel_html += '</div>'
 st.markdown(carousel_html, unsafe_allow_html=True)
 
 # ==================== SEÇÃO DE BENEFÍCIOS ====================
+st.markdown("""
+<div class="section">
+    <div class="section-title">Nosso foco é em simplicidade no processo</div>
+    <div class="section-description">
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
 col1, col2, col3 = st.columns(3)
 
 with col1:
     st.markdown("""
     <div class="card">
-        <div class="card-icon">⚡</div>
+        <div class="card-icon">💻</div>
         <div class="card-title">NÃO SABE PROGRAMAR?</div>
         <div class="card-description">
             Nossos templates já vêm prontos. Você só customiza o conteúdo e cores de acordo com seu propósito.
@@ -832,7 +840,7 @@ with col1:
 with col2:
     st.markdown("""
     <div class="card">
-        <div class="card-icon">🎨</div>
+        <div class="card-icon">💰</div>
         <div class="card-title">ORÇAMENTO APERTADO?</div>
         <div class="card-description">
             De R$ 38,90 a R$ 197. 80% a menos do que a média de agências que cobram pelo mesmo produto.
@@ -843,7 +851,7 @@ with col2:
 with col3:
     st.markdown("""
     <div class="card">
-        <div class="card-icon">📱</div>
+        <div class="card-icon">⚡</div>
         <div class="card-title">PRECISA DE ALGO RÁPIDO?</div>
         <div class="card-description">
             Escolha, customize e lance em minutos. Funciona perfeitamente em celulares, tablets e desktops. Sem problemas em nenhum lugar!
