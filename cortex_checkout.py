@@ -344,6 +344,75 @@ custom_css = """
         box-shadow: 0 5px 15px rgba(255, 0, 110, 0.3);
     }
     
+    /* CLIENTS SECTION */
+    .clients-section {
+        padding: 80px 40px;
+        max-width: 1400px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .clients-title {
+        font-size: 48px;
+        font-weight: 900;
+        margin-bottom: 15px;
+        color: white;
+        text-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+        text-align: center;
+    }
+    
+    .clients-subtitle {
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.9);
+        text-align: center;
+        margin-bottom: 60px;
+        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .clients-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 30px;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .client-logo {
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+        padding: 25px;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+        cursor: pointer;
+        height: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .client-logo:hover {
+        transform: translateY(-10px) scale(1.08);
+        box-shadow: 0 20px 50px rgba(255, 0, 110, 0.3);
+        border-color: rgba(255, 255, 255, 0.4);
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.1) 100%);
+    }
+    
+    .client-logo img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        filter: brightness(1.1) contrast(1.1);
+        transition: all 0.3s ease;
+    }
+    
+    .client-logo:hover img {
+        filter: brightness(1.3) contrast(1.2);
+    }
+    
     /* CARDS ULTRA VIBRANTES */
     .cards-grid {
         display: grid;
@@ -692,6 +761,10 @@ custom_css = """
             font-size: 36px;
         }
         
+        .clients-title {
+            font-size: 36px;
+        }
+        
         .hero-section {
             padding: 80px 20px;
             clip-path: none;
@@ -705,9 +778,18 @@ custom_css = """
             padding: 60px 20px;
         }
         
+        .clients-section {
+            padding: 60px 20px;
+        }
+        
         .carousel-item {
             flex: 0 0 280px;
             min-width: 280px;
+        }
+        
+        .clients-grid {
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 20px;
         }
         
         .pricing-card.featured {
@@ -749,7 +831,7 @@ st.markdown(hero_html, unsafe_allow_html=True)
 # ==================== SEÇÃO DE CARROSSEL HORIZONTAL ====================
 st.markdown("""
 <div class="carousel-section">
-    <div class="carousel-title">Conheça alguns dos nossos templates</span></div>
+    <div class="carousel-title">Conheça alguns dos nossos templates</div>
     <div class="carousel-description">
         Escolha o seu, customize e lance hoje mesmo seu site!
     </div>
@@ -800,7 +882,7 @@ templates_data = [
     },
 ]
 
-# Renderizar carrossel com HTML puro - CORRIGIDO
+# Renderizar carrossel com HTML puro
 carousel_html = '<div class="carousel-wrapper">'
 for template in templates_data:
     carousel_html += f'''<div class="carousel-item">
@@ -858,6 +940,40 @@ with col3:
         </div>
     </div>
     """, unsafe_allow_html=True)
+
+# ==================== SEÇÃO DE CLIENTES ====================
+st.markdown("""
+<div class="clients-section">
+    <div class="clients-title">Confie em quem já usa</div>
+    <div class="clients-subtitle">Centenas de clientes satisfeitos em todo o Brasil</div>
+</div>
+""", unsafe_allow_html=True)
+
+# Dados dos clientes - EDITE AS URLS AQUI COM SEUS LINKS DO GITHUB
+clients_data = [
+    {"url": "https://via.placeholder.com/180x140?text=Cliente+1"},
+    {"url": "https://via.placeholder.com/180x140?text=Cliente+2"},
+    {"url": "https://via.placeholder.com/180x140?text=Cliente+3"},
+    {"url": "https://via.placeholder.com/180x140?text=Cliente+4"},
+    {"url": "https://via.placeholder.com/180x140?text=Cliente+5"},
+    {"url": "https://via.placeholder.com/180x140?text=Cliente+6"},
+    {"url": "https://via.placeholder.com/180x140?text=Cliente+7"},
+    {"url": "https://via.placeholder.com/180x140?text=Cliente+8"},
+    {"url": "https://via.placeholder.com/180x140?text=Cliente+9"},
+    {"url": "https://via.placeholder.com/180x140?text=Cliente+10"},
+    {"url": "https://via.placeholder.com/180x140?text=Cliente+11"},
+    {"url": "https://via.placeholder.com/180x140?text=Cliente+12"},
+]
+
+# Renderizar grid de clientes
+clients_html = '<div class="clients-grid">'
+for client in clients_data:
+    clients_html += f'''<div class="client-logo">
+        <img src="{client['url']}" alt="Cliente">
+    </div>'''
+clients_html += '</div>'
+
+st.markdown(clients_html, unsafe_allow_html=True)
 
 # ==================== SEÇÃO DE EXEMPLOS ====================
 st.markdown("""
