@@ -1104,6 +1104,45 @@ carousel_html += '</div>'
 
 st.markdown(carousel_html, unsafe_allow_html=True)
 
+
+# ==================== SEÇÃO DE CLIENTES ====================
+st.markdown("""
+<div class="clients-section">
+    <div class="clients-title">Confie em quem já usa</div>
+    <div class="clients-subtitle">Centenas de clientes satisfeitos em todo o Brasil</div>
+</div>
+""", unsafe_allow_html=True)
+
+# Dados dos clientes
+clients_data = [
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/2.jpg"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/3.png"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/4.jpg"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/5.png"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/7.jpg"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/8.jpg"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/9.jpg"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/10.png"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/11.png"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/12.jpg"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/6.jpg"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/13.jpg"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/14.jpg"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/18.png"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/17.png"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/16.jpg"},
+]
+
+# Renderizar grid de clientes
+clients_html = '<div class="clients-grid">'
+for client in clients_data:
+    clients_html += f'''<div class="client-logo">
+        <img src="{client['url']}" alt="Cliente">
+    </div>'''
+clients_html += '</div>'
+
+st.markdown(clients_html, unsafe_allow_html=True)
+
 # ==================== SEÇÃO DE BENEFÍCIOS ====================
 st.markdown("""
 <div class="section">
@@ -1148,43 +1187,6 @@ with col3:
     </div>
     """, unsafe_allow_html=True)
 
-# ==================== SEÇÃO DE CLIENTES ====================
-st.markdown("""
-<div class="clients-section">
-    <div class="clients-title">Confie em quem já usa</div>
-    <div class="clients-subtitle">Centenas de clientes satisfeitos em todo o Brasil</div>
-</div>
-""", unsafe_allow_html=True)
-
-# Dados dos clientes
-clients_data = [
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/2.jpg"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/3.png"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/4.jpg"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/5.png"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/7.jpg"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/8.jpg"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/9.jpg"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/10.png"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/11.png"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/12.jpg"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/6.jpg"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/13.jpg"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/14.jpg"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/18.png"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/17.png"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/16.jpg"},
-]
-
-# Renderizar grid de clientes
-clients_html = '<div class="clients-grid">'
-for client in clients_data:
-    clients_html += f'''<div class="client-logo">
-        <img src="{client['url']}" alt="Cliente">
-    </div>'''
-clients_html += '</div>'
-
-st.markdown(clients_html, unsafe_allow_html=True)
 
 # ==================== SEÇÃO DE TABELA COMPARATIVA ====================
 st.markdown("""
