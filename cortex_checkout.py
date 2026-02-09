@@ -599,10 +599,10 @@ st.markdown(custom_css, unsafe_allow_html=True)
 hero_html = """
 <div class="hero-section">
     <div class="hero-content">
-        <div class="hero-subtitle">⚡ TEMPLATES DE SITES PRONTOS ⚡</div>
-        <div class="hero-title">Crie seu site em 5 minutos</div>
+        <div class="hero-subtitle">⚡ Crie seu site em 5 minutos ⚡</div>
+        <div class="hero-title">Lance seu novo site profissional em minutos, sem a dependência de um programador</div>
         <div class="hero-description">
-            Templates profissionais e vibrantes prontos para usar. Perfeito para dentistas, criadores de conteúdo, lojas e muito mais. Sem necessidade de conhecimento técnico. Comece AGORA!
+            Escolha entre dezenas de templates prontos, personalize do jeito que quiser e economize até 80% dos valores convencionais. Seu site no ar hoje, sem complicações.
         </div>
     </div>
 </div>
