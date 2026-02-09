@@ -952,17 +952,18 @@ st.markdown("""
 # Dados dos clientes - EDITE AS URLS AQUI COM SEUS LINKS DO GITHUB
 clients_data = [
     {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/2.jpg"},
-    {"url": "https://via.placeholder.com/180x140?text=Cliente+2"},
-    {"url": "https://via.placeholder.com/180x140?text=Cliente+3"},
-    {"url": "https://via.placeholder.com/180x140?text=Cliente+4"},
-    {"url": "https://via.placeholder.com/180x140?text=Cliente+5"},
-    {"url": "https://via.placeholder.com/180x140?text=Cliente+6"},
-    {"url": "https://via.placeholder.com/180x140?text=Cliente+7"},
-    {"url": "https://via.placeholder.com/180x140?text=Cliente+8"},
-    {"url": "https://via.placeholder.com/180x140?text=Cliente+9"},
-    {"url": "https://via.placeholder.com/180x140?text=Cliente+10"},
-    {"url": "https://via.placeholder.com/180x140?text=Cliente+11"},
-    {"url": "https://via.placeholder.com/180x140?text=Cliente+12"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/3.png"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/4.jpg"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/5.png"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/7.jpg"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/8.jpg"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/9.jpg"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/10.png"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/11.png"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/12.jpg"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/6.jpg"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/13.jpg"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/14.jpg"},
 ]
 
 # Renderizar grid de clientes
