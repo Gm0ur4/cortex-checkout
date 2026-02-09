@@ -1210,7 +1210,7 @@ comparison_html = """
         <tr>
             <td class="comparison-feature">Investimento</td>
             <td class="comparison-check">✅ R$38 - R$127</td>
-            <td class="comparison-check">❌ R$394,00-R$5.000</td>
+            <td class="comparison-check">❌ R$394 - R$5.000</td>
             <td class="comparison-check">⚠️ Investe todo seu tempo</td>
         </tr>
         <tr>
