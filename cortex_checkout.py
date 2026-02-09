@@ -843,7 +843,7 @@ with col2:
         <div class="card-icon">💰</div>
         <div class="card-title">ORÇAMENTO APERTADO?</div>
         <div class="card-description">
-            De R$ 38,90 a R$ 197. 80% a menos do que a média de agências que cobram pelo mesmo produto.
+            De R$ 38,90 a R$ 197, 80% mais barato que a média cobrada por agências pelo mesmo tipo de entrega.
         </div>
     </div>
     """, unsafe_allow_html=True)
