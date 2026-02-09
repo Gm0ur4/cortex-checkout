@@ -818,7 +818,7 @@ st.markdown(carousel_html, unsafe_allow_html=True)
 # ==================== SEÇÃO DE BENEFÍCIOS ====================
 st.markdown("""
 <div class="section">
-    <div class="section-title">Nosso foco é em simplicidade no processo</div>
+    <div class="section-title">Nosso foco é em simplificar o processo</div>
     <div class="section-description">
     </div>
 </div>
