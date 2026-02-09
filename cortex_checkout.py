@@ -612,7 +612,7 @@ st.markdown(hero_html, unsafe_allow_html=True)
 # ==================== SEÇÃO DE BENEFÍCIOS ====================
 st.markdown("""
 <div class="section">
-    <div class="section-title">Por que escolher nossos <span class="highlight">templates?</span></div>
+    <div class="section-title">Por que escolher nossos templates?</div>
     <div class="section-description">
         Oferecemos soluções completas, profissionais e fáceis de usar para qualquer tipo de negócio.
     </div>
@@ -657,7 +657,7 @@ with col3:
 # ==================== SEÇÃO DE EXEMPLOS ====================
 st.markdown("""
 <div class="section">
-    <div class="section-title">Exemplos de <span class="highlight">sites criados</span></div>
+    <div class="section-title">Exemplos de sites criados</div>
     <div class="section-description">
         Veja alguns dos templates que você pode usar hoje mesmo. Cada um é uma obra de arte!
     </div>
@@ -685,7 +685,7 @@ for col, example in zip([col1, col2, col3], examples):
 # ==================== SEÇÃO DE ESPECIALIDADES ====================
 st.markdown("""
 <div class="section">
-    <div class="section-title">Templates para todos os <span class="highlight">tipos de negócio</span></div>
+    <div class="section-title">Templates para todos os tipos de negócio</div>
     <div class="section-description">
         Temos soluções prontas para qualquer segmento. Escolha a que mais se encaixa no seu negócio.
     </div>
@@ -718,7 +718,7 @@ for idx, specialty in enumerate(specialties):
 # ==================== SEÇÃO DE PREÇOS ====================
 st.markdown("""
 <div class="section">
-    <div class="section-title">Planos e <span class="highlight">preços</span></div>
+    <div class="section-title">Planos e preços</div>
     <div class="section-description">
         Escolha o plano que melhor se adequa às suas necessidades. Todos com suporte completo!
     </div>
@@ -777,7 +777,7 @@ with pricing_col3:
 # ==================== SEÇÃO DE TESTIMONIAIS ====================
 st.markdown("""
 <div class="section">
-    <div class="section-title">O que nossos <span class="highlight">clientes dizem</span></div>
+    <div class="section-title">O que nossos clientes dizem</div>
     <div class="section-description">
         Histórias reais de pessoas que transformaram seus negócios com nossos templates.
     </div>
