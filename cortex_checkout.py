@@ -413,6 +413,188 @@ custom_css = """
         filter: brightness(1.3) contrast(1.2);
     }
     
+    /* COMPARISON TABLE */
+    .comparison-section {
+        padding: 100px 40px;
+        max-width: 1400px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .comparison-title {
+        font-size: 56px;
+        font-weight: 900;
+        margin-bottom: 20px;
+        color: white;
+        text-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+        text-align: center;
+    }
+    
+    .comparison-subtitle {
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.95);
+        text-align: center;
+        margin-bottom: 60px;
+        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .comparison-table {
+        width: 100%;
+        border-collapse: collapse;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+        backdrop-filter: blur(10px);
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
+    }
+    
+    .comparison-table thead {
+        background: linear-gradient(135deg, #FF006E, #FB5607);
+        box-shadow: 0 5px 15px rgba(255, 0, 110, 0.3);
+    }
+    
+    .comparison-table th {
+        padding: 25px;
+        color: white;
+        font-weight: 900;
+        font-size: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border-right: 2px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    .comparison-table th:last-child {
+        border-right: none;
+    }
+    
+    .comparison-table td {
+        padding: 20px 25px;
+        color: rgba(255, 255, 255, 0.95);
+        font-size: 16px;
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        transition: all 0.3s ease;
+    }
+    
+    .comparison-table td:last-child {
+        border-right: none;
+    }
+    
+    .comparison-table tbody tr:hover {
+        background: rgba(255, 255, 255, 0.1);
+        transform: scale(1.01);
+    }
+    
+    .comparison-table tbody tr:last-child td {
+        border-bottom: none;
+    }
+    
+    .comparison-feature {
+        font-weight: 700;
+        color: #FFBE0B;
+        text-align: left;
+    }
+    
+    .comparison-check {
+        color: #00FF00;
+        font-weight: 900;
+        font-size: 20px;
+    }
+    
+    .comparison-cross {
+        color: #FF6B6B;
+        font-weight: 900;
+        font-size: 20px;
+    }
+    
+    /* FAQ SECTION */
+    .faq-section {
+        padding: 100px 40px;
+        max-width: 1000px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .faq-title {
+        font-size: 56px;
+        font-weight: 900;
+        margin-bottom: 20px;
+        color: white;
+        text-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+        text-align: center;
+    }
+    
+    .faq-subtitle {
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.95);
+        text-align: center;
+        margin-bottom: 60px;
+        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .faq-item {
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        margin-bottom: 20px;
+        overflow: hidden;
+        transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+        position: relative;
+    }
+    
+    .faq-item:hover {
+        transform: translateX(10px);
+        box-shadow: 0 15px 50px rgba(255, 0, 110, 0.3);
+        border-color: rgba(255, 255, 255, 0.4);
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.1) 100%);
+    }
+    
+    .faq-question {
+        padding: 25px;
+        color: white;
+        font-weight: 800;
+        font-size: 18px;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: all 0.3s ease;
+    }
+    
+    .faq-question:hover {
+        color: #FFBE0B;
+    }
+    
+    .faq-icon {
+        font-size: 24px;
+        transition: transform 0.3s ease;
+    }
+    
+    .faq-item.active .faq-icon {
+        transform: rotate(180deg);
+    }
+    
+    .faq-answer {
+        padding: 0 25px 25px 25px;
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 16px;
+        line-height: 1.8;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.3s ease;
+    }
+    
+    .faq-item.active .faq-answer {
+        max-height: 500px;
+        padding: 25px 25px 25px 25px;
+    }
+    
     /* CARDS ULTRA VIBRANTES */
     .cards-grid {
         display: grid;
@@ -765,6 +947,14 @@ custom_css = """
             font-size: 36px;
         }
         
+        .comparison-title {
+            font-size: 36px;
+        }
+        
+        .faq-title {
+            font-size: 36px;
+        }
+        
         .hero-section {
             padding: 80px 20px;
             clip-path: none;
@@ -782,6 +972,14 @@ custom_css = """
             padding: 60px 20px;
         }
         
+        .comparison-section {
+            padding: 60px 20px;
+        }
+        
+        .faq-section {
+            padding: 60px 20px;
+        }
+        
         .carousel-item {
             flex: 0 0 280px;
             min-width: 280px;
@@ -790,6 +988,15 @@ custom_css = """
         .clients-grid {
             grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
             gap: 20px;
+        }
+        
+        .comparison-table {
+            font-size: 14px;
+        }
+        
+        .comparison-table th,
+        .comparison-table td {
+            padding: 15px;
         }
         
         .pricing-card.featured {
@@ -897,45 +1104,6 @@ carousel_html += '</div>'
 
 st.markdown(carousel_html, unsafe_allow_html=True)
 
-# ==================== SEÇÃO DE CLIENTES ====================
-st.markdown("""
-<div class="clients-section">
-    <div class="clients-title">Confie em quem já usa</div>
-    <div class="clients-subtitle">Centenas de clientes satisfeitos em todo o Brasil</div>
-</div>
-""", unsafe_allow_html=True)
-
-# Dados dos clientes - EDITE AS URLS AQUI COM SEUS LINKS DO GITHUB
-clients_data = [
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/2.jpg"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/3.png"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/4.jpg"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/5.png"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/7.jpg"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/8.jpg"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/9.jpg"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/10.png"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/11.png"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/12.jpg"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/6.jpg"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/13.jpg"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/14.jpg"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/18.png"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/17.png"},
-    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/16.jpg"},
-]
-
-# Renderizar grid de clientes
-clients_html = '<div class="clients-grid">'
-for client in clients_data:
-    clients_html += f'''<div class="client-logo">
-        <img src="{client['url']}" alt="Cliente">
-    </div>'''
-clients_html += '</div>'
-
-st.markdown(clients_html, unsafe_allow_html=True)
-
-
 # ==================== SEÇÃO DE BENEFÍCIOS ====================
 st.markdown("""
 <div class="section">
@@ -979,6 +1147,173 @@ with col3:
         </div>
     </div>
     """, unsafe_allow_html=True)
+
+# ==================== SEÇÃO DE CLIENTES ====================
+st.markdown("""
+<div class="clients-section">
+    <div class="clients-title">Confie em quem já usa</div>
+    <div class="clients-subtitle">Centenas de clientes satisfeitos em todo o Brasil</div>
+</div>
+""", unsafe_allow_html=True)
+
+# Dados dos clientes
+clients_data = [
+    {"url": "https://via.placeholder.com/180x140?text=Cliente+1"},
+    {"url": "https://via.placeholder.com/180x140?text=Cliente+2"},
+    {"url": "https://via.placeholder.com/180x140?text=Cliente+3"},
+    {"url": "https://via.placeholder.com/180x140?text=Cliente+4"},
+    {"url": "https://via.placeholder.com/180x140?text=Cliente+5"},
+    {"url": "https://via.placeholder.com/180x140?text=Cliente+6"},
+    {"url": "https://via.placeholder.com/180x140?text=Cliente+7"},
+    {"url": "https://via.placeholder.com/180x140?text=Cliente+8"},
+    {"url": "https://via.placeholder.com/180x140?text=Cliente+9"},
+    {"url": "https://via.placeholder.com/180x140?text=Cliente+10"},
+    {"url": "https://via.placeholder.com/180x140?text=Cliente+11"},
+    {"url": "https://via.placeholder.com/180x140?text=Cliente+12"},
+]
+
+# Renderizar grid de clientes
+clients_html = '<div class="clients-grid">'
+for client in clients_data:
+    clients_html += f'''<div class="client-logo">
+        <img src="{client['url']}" alt="Cliente">
+    </div>'''
+clients_html += '</div>'
+
+st.markdown(clients_html, unsafe_allow_html=True)
+
+# ==================== SEÇÃO DE TABELA COMPARATIVA ====================
+st.markdown("""
+<div class="comparison-section">
+    <div class="comparison-title">Compare nossos planos</div>
+    <div class="comparison-subtitle">Veja qual é o melhor para você</div>
+</div>
+""", unsafe_allow_html=True)
+
+comparison_html = """
+<table class="comparison-table">
+    <thead>
+        <tr>
+            <th>Funcionalidade</th>
+            <th>Básico</th>
+            <th>Profissional</th>
+            <th>Premium</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="comparison-feature">Templates Disponíveis</td>
+            <td class="comparison-check">1</td>
+            <td class="comparison-check">5</td>
+            <td class="comparison-check">30+</td>
+        </tr>
+        <tr>
+            <td class="comparison-feature">Customização</td>
+            <td class="comparison-check">Básica</td>
+            <td class="comparison-check">Avançada</td>
+            <td class="comparison-check">Ilimitada</td>
+        </tr>
+        <tr>
+            <td class="comparison-feature">Suporte</td>
+            <td class="comparison-check">Email</td>
+            <td class="comparison-check">Prioritário</td>
+            <td class="comparison-check">24/7</td>
+        </tr>
+        <tr>
+            <td class="comparison-feature">Atualizações</td>
+            <td class="comparison-cross">✗</td>
+            <td class="comparison-check">✓</td>
+            <td class="comparison-check">✓</td>
+        </tr>
+        <tr>
+            <td class="comparison-feature">Comunidade</td>
+            <td class="comparison-cross">✗</td>
+            <td class="comparison-cross">✗</td>
+            <td class="comparison-check">✓</td>
+        </tr>
+        <tr>
+            <td class="comparison-feature">Certificado</td>
+            <td class="comparison-cross">✗</td>
+            <td class="comparison-check">✓</td>
+            <td class="comparison-check">✓</td>
+        </tr>
+        <tr>
+            <td class="comparison-feature">Bônus Exclusivos</td>
+            <td class="comparison-cross">✗</td>
+            <td class="comparison-cross">✗</td>
+            <td class="comparison-check">✓</td>
+        </tr>
+        <tr>
+            <td class="comparison-feature">Preço</td>
+            <td class="comparison-check">R$ 97</td>
+            <td class="comparison-check">R$ 197</td>
+            <td class="comparison-check">R$ 397</td>
+        </tr>
+    </tbody>
+</table>
+"""
+
+st.markdown(comparison_html, unsafe_allow_html=True)
+
+# ==================== SEÇÃO DE FAQ ====================
+st.markdown("""
+<div class="faq-section">
+    <div class="faq-title">Perguntas Frequentes</div>
+    <div class="faq-subtitle">Encontre respostas para as dúvidas mais comuns</div>
+</div>
+""", unsafe_allow_html=True)
+
+# Dados do FAQ
+faq_data = [
+    {
+        "question": "Como funciona o processo de compra?",
+        "answer": "Você escolhe o plano desejado, preenche seus dados, realiza o pagamento via Eduzz e recebe acesso imediato a todos os templates. É tudo muito simples e rápido!"
+    },
+    {
+        "question": "Posso customizar os templates?",
+        "answer": "Sim! Todos os templates são totalmente customizáveis. Você pode mudar cores, textos, imagens e até adicionar novas seções. Fornecemos documentação completa para facilitar."
+    },
+    {
+        "question": "Qual é o tempo de entrega?",
+        "answer": "Acesso imediato! Após o pagamento, você recebe um link para download de todos os arquivos e pode começar a usar seu template em minutos."
+    },
+    {
+        "question": "Preciso saber programar?",
+        "answer": "Não! Nossos templates são prontos para usar. Você só precisa customizar o conteúdo (textos, imagens, cores). Fornecemos guias passo a passo para tudo."
+    },
+    {
+        "question": "Qual suporte vocês oferecem?",
+        "answer": "Oferecemos suporte por email (Básico), suporte prioritário (Profissional) e suporte 24/7 (Premium). Também temos uma comunidade ativa para trocar experiências."
+    },
+    {
+        "question": "Posso usar os templates para meus clientes?",
+        "answer": "Sim! Você pode usar os templates para criar sites para seus clientes. Cada plano permite um número diferente de templates para uso comercial."
+    }
+]
+
+# Renderizar FAQ com JavaScript interativo
+faq_html = ""
+for idx, item in enumerate(faq_data):
+    faq_html += f'''
+    <div class="faq-item" onclick="toggleFAQ(this)">
+        <div class="faq-question">
+            <span>{item['question']}</span>
+            <span class="faq-icon">▼</span>
+        </div>
+        <div class="faq-answer">{item['answer']}</div>
+    </div>
+    '''
+
+st.markdown(faq_html, unsafe_allow_html=True)
+
+# Script JavaScript para FAQ interativo
+st.markdown("""
+<script>
+function toggleFAQ(element) {
+    element.classList.toggle('active');
+}
+</script>
+""", unsafe_allow_html=True)
 
 # ==================== SEÇÃO DE EXEMPLOS ====================
 st.markdown("""
