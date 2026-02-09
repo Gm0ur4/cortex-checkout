@@ -1200,60 +1200,48 @@ comparison_html = """
 <table class="comparison-table">
     <thead>
         <tr>
-            <th>Funcionalidade</th>
-            <th>Básico</th>
-            <th>Profissional</th>
-            <th>Premium</th>
+            <th>Aspecto</th>
+            <th>Conosco</th>
+            <th>Agência/ programador</th>
+            <th>Sozinho</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td class="comparison-feature">Templates Disponíveis</td>
-            <td class="comparison-check">1</td>
-            <td class="comparison-check">5</td>
-            <td class="comparison-check">30+</td>
+            <td class="comparison-feature">Investimento</td>
+            <td class="comparison-check">R$38,90-R$127,50</td>
+            <td class="comparison-check">R$394,00-R$5.000</td>
+            <td class="comparison-check">Investe todo seu tempo</td>
         </tr>
         <tr>
-            <td class="comparison-feature">Customização</td>
-            <td class="comparison-check">Básica</td>
-            <td class="comparison-check">Avançada</td>
-            <td class="comparison-check">Ilimitada</td>
+            <td class="comparison-feature">Tempo de lançamento</td>
+            <td class="comparison-check">5 minutos</td>
+            <td class="comparison-check">4-8 semanas</td>
+            <td class="comparison-check">Também vai depender do seu tempo</td>
         </tr>
         <tr>
-            <td class="comparison-feature">Suporte</td>
-            <td class="comparison-check">Email</td>
-            <td class="comparison-check">Prioritário</td>
-            <td class="comparison-check">24/7</td>
+            <td class="comparison-feature">Qualidade profissional</td>
+            <td class="comparison-check">✅ Sim</td>
+            <td class="comparison-check">✅ Sim</td>
+            <td class="comparison-check">⚠️ Depende</td>
         </tr>
         <tr>
-            <td class="comparison-feature">Atualizações</td>
-            <td class="comparison-cross">✗</td>
-            <td class="comparison-check">✓</td>
-            <td class="comparison-check">✓</td>
+            <td class="comparison-feature">Facilidade</td>
+            <td class="comparison-cross">Simples e passo a passo explicando</td>
+            <td class="comparison-check">Extrema facilidade</td>
+            <td class="comparison-check">Precisa aprender</td>
         </tr>
         <tr>
-            <td class="comparison-feature">Comunidade</td>
-            <td class="comparison-cross">✗</td>
-            <td class="comparison-cross">✗</td>
-            <td class="comparison-check">✓</td>
+            <td class="comparison-feature">Atualizações futuras</td>
+            <td class="comparison-cross">Incluídas</td>
+            <td class="comparison-cross">Depende da agência</td>
+            <td class="comparison-check">Depende do usuário</td>
         </tr>
         <tr>
-            <td class="comparison-feature">Certificado</td>
-            <td class="comparison-cross">✗</td>
-            <td class="comparison-check">✓</td>
-            <td class="comparison-check">✓</td>
-        </tr>
-        <tr>
-            <td class="comparison-feature">Bônus Exclusivos</td>
-            <td class="comparison-cross">✗</td>
-            <td class="comparison-cross">✗</td>
-            <td class="comparison-check">✓</td>
-        </tr>
-        <tr>
-            <td class="comparison-feature">Preço</td>
-            <td class="comparison-check">R$ 97</td>
-            <td class="comparison-check">R$ 197</td>
-            <td class="comparison-check">R$ 397</td>
+            <td class="comparison-feature">Funcionamento mobile</td>
+            <td class="comparison-cross">Incluído</td>
+            <td class="comparison-check">Cobram a mais</td>
+            <td class="comparison-check">Vai depender do seu conhecimento</td>
         </tr>
     </tbody>
 </table>
