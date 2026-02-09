@@ -951,7 +951,7 @@ st.markdown("""
 
 # Dados dos clientes - EDITE AS URLS AQUI COM SEUS LINKS DO GITHUB
 clients_data = [
-    {"url": "https://via.placeholder.com/180x140?text=Cliente+1"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/logo1.png"},
     {"url": "https://via.placeholder.com/180x140?text=Cliente+2"},
     {"url": "https://via.placeholder.com/180x140?text=Cliente+3"},
     {"url": "https://via.placeholder.com/180x140?text=Cliente+4"},
