@@ -247,13 +247,6 @@ custom_css = """
         text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     }
     
-    .carousel-container {
-        position: relative;
-        overflow: hidden;
-        border-radius: 25px;
-        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-    }
-    
     .carousel-wrapper {
         display: flex;
         gap: 20px;
@@ -311,7 +304,10 @@ custom_css = """
         width: 100%;
         height: 250px;
         object-fit: cover;
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 80px;
         background: linear-gradient(135deg, #FF006E, #8338EC);
     }
     
@@ -804,21 +800,17 @@ templates_data = [
     },
 ]
 
-# Renderizar carrossel com HTML puro
+# Renderizar carrossel com HTML puro - CORRIGIDO
 carousel_html = '<div class="carousel-wrapper">'
 for template in templates_data:
-    carousel_html += f"""
-    <div class="carousel-item">
+    carousel_html += f'''<div class="carousel-item">
         <div class="carousel-badge">{template['category']}</div>
-        <div class="carousel-image" style="background: linear-gradient(135deg, #FF006E, #8338EC); display: flex; align-items: center; justify-content: center; font-size: 80px;">
-            📱
-        </div>
+        <div class="carousel-image">📱</div>
         <div class="carousel-content">
             <div class="carousel-item-title">{template['title']}</div>
             <div class="carousel-item-desc">{template['desc']}</div>
         </div>
-    </div>
-    """
+    </div>'''
 carousel_html += '</div>'
 
 st.markdown(carousel_html, unsafe_allow_html=True)
