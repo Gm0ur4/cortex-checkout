@@ -964,6 +964,9 @@ clients_data = [
     {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/6.jpg"},
     {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/13.jpg"},
     {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/14.jpg"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/18.png"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/17.png"},
+    {"url": "https://raw.githubusercontent.com/Gm0ur4/cortex-checkout/main/16.jpg"},
 ]
 
 # Renderizar grid de clientes
