@@ -749,7 +749,7 @@ st.markdown(hero_html, unsafe_allow_html=True)
 # ==================== SEÇÃO DE CARROSSEL HORIZONTAL ====================
 st.markdown("""
 <div class="carousel-section">
-    <div class="carousel-title">Conheça alguns dos nossos templates prontos</span></div>
+    <div class="carousel-title">Conheça alguns dos nossos templates</span></div>
     <div class="carousel-description">
         Escolha o seu, customize e lance hoje mesmo seu site!
     </div>
@@ -816,24 +816,15 @@ carousel_html += '</div>'
 st.markdown(carousel_html, unsafe_allow_html=True)
 
 # ==================== SEÇÃO DE BENEFÍCIOS ====================
-st.markdown("""
-<div class="section">
-    <div class="section-title">Por que escolher nossos templates?</div>
-    <div class="section-description">
-        Oferecemos soluções completas, profissionais e fáceis de usar para qualquer tipo de negócio.
-    </div>
-</div>
-""", unsafe_allow_html=True)
-
 col1, col2, col3 = st.columns(3)
 
 with col1:
     st.markdown("""
     <div class="card">
         <div class="card-icon">⚡</div>
-        <div class="card-title">SUPER RÁPIDO</div>
+        <div class="card-title">NÃO SABE PROGRAMAR?</div>
         <div class="card-description">
-            Seu site estará pronto em apenas 5 minutos. Sem complicações, sem esperas. Sério mesmo!
+            Nossos templates já vêm prontos. Você só customiza o conteúdo e cores de acordo com seu propósito.
         </div>
     </div>
     """, unsafe_allow_html=True)
@@ -842,9 +833,9 @@ with col2:
     st.markdown("""
     <div class="card">
         <div class="card-icon">🎨</div>
-        <div class="card-title">TOTALMENTE CUSTOMIZÁVEL</div>
+        <div class="card-title">ORÇAMENTO APERTADO?</div>
         <div class="card-description">
-            Personalize cores, textos e imagens facilmente. O código está pronto para você ajustar.
+            De R$ 38,90 a R$ 197. 80% a menos do que a média de agências que cobram pelo mesmo produto.
         </div>
     </div>
     """, unsafe_allow_html=True)
@@ -853,9 +844,9 @@ with col3:
     st.markdown("""
     <div class="card">
         <div class="card-icon">📱</div>
-        <div class="card-title">RESPONSIVO</div>
+        <div class="card-title">PRECISA DE ALGO RÁPIDO?</div>
         <div class="card-description">
-            Funciona perfeitamente em celulares, tablets e desktops. Sem problemas em nenhum lugar!
+            Escolha, customize e lance em minutos. Funciona perfeitamente em celulares, tablets e desktops. Sem problemas em nenhum lugar!
         </div>
     </div>
     """, unsafe_allow_html=True)
