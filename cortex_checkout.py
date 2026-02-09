@@ -1191,7 +1191,7 @@ with col3:
 # ==================== SEÇÃO DE TABELA COMPARATIVA ====================
 st.markdown("""
 <div class="comparison-section">
-    <div class="comparison-title">Compare nossos planos</div>
+    <div class="comparison-title">Faça uma escolha inteligente</div>
     <div class="comparison-subtitle">Veja qual é o melhor para você</div>
 </div>
 """, unsafe_allow_html=True)
