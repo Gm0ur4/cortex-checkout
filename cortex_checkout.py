@@ -1209,15 +1209,15 @@ comparison_html = """
     <tbody>
         <tr>
             <td class="comparison-feature">Investimento</td>
-            <td class="comparison-check">R$38,90-R$127,50</td>
-            <td class="comparison-check">R$394,00-R$5.000</td>
-            <td class="comparison-check">Investe todo seu tempo</td>
+            <td class="comparison-check">✅ R$38 - R$127</td>
+            <td class="comparison-check">❌ R$394,00-R$5.000</td>
+            <td class="comparison-check">⚠️ Investe todo seu tempo</td>
         </tr>
         <tr>
             <td class="comparison-feature">Tempo de lançamento</td>
             <td class="comparison-check">5 minutos</td>
-            <td class="comparison-check">4-8 semanas</td>
-            <td class="comparison-check">Também vai depender do seu tempo</td>
+            <td class="comparison-check">❌ 4-8 semanas</td>
+            <td class="comparison-check">❌ Também vai depender do seu tempo</td>
         </tr>
         <tr>
             <td class="comparison-feature">Qualidade profissional</td>
@@ -1227,21 +1227,21 @@ comparison_html = """
         </tr>
         <tr>
             <td class="comparison-feature">Facilidade</td>
-            <td class="comparison-cross">Simples e passo a passo explicando</td>
-            <td class="comparison-check">Extrema facilidade</td>
-            <td class="comparison-check">Precisa aprender</td>
+            <td class="comparison-cross">✅ Simples e passo a passo explicando</td>
+            <td class="comparison-check">✅ Extrema facilidade</td>
+            <td class="comparison-check">❌ Precisa aprender</td>
         </tr>
         <tr>
             <td class="comparison-feature">Atualizações futuras</td>
-            <td class="comparison-cross">Incluídas</td>
-            <td class="comparison-cross">Depende da agência</td>
-            <td class="comparison-check">Depende do usuário</td>
+            <td class="comparison-cross">✅ Incluídas</td>
+            <td class="comparison-cross">⚠️ Depende da agência</td>
+            <td class="comparison-check">⚠️ Depende do usuário</td>
         </tr>
         <tr>
             <td class="comparison-feature">Funcionamento mobile</td>
-            <td class="comparison-cross">Incluído</td>
-            <td class="comparison-check">Cobram a mais</td>
-            <td class="comparison-check">Vai depender do seu conhecimento</td>
+            <td class="comparison-cross">✅ Incluído</td>
+            <td class="comparison-check">⚠️ Cobram a mais</td>
+            <td class="comparison-check">⚠️ Vai depender do seu conhecimento</td>
         </tr>
     </tbody>
 </table>
