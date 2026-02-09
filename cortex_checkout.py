@@ -1215,7 +1215,7 @@ comparison_html = """
         </tr>
         <tr>
             <td class="comparison-feature">Tempo de lançamento</td>
-            <td class="comparison-check">5 minutos</td>
+            <td class="comparison-check">✅ 5 minutos</td>
             <td class="comparison-check">❌ 4-8 semanas</td>
             <td class="comparison-check">❌ Também vai depender do seu tempo</td>
         </tr>
