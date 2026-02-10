@@ -1026,7 +1026,7 @@ hero_html = """
 <div class="hero-section">
     <div class="hero-content">
         <div class="hero-subtitle">⚡ Crie seu site em 5 minutos ⚡</div>
-        <div class="hero-title">Lance seu novo site profissional em minutos, sem a dependência de um programador</div>
+        <div class="hero-title">Aprenda a criar seu novo site profissional em minutos, sem a dependência de um programador</div>
         <div class="hero-description">
             Escolha entre dezenas de templates prontos, personalize do jeito que quiser e economize até 80%. Seu site no ar hoje, sem complicações.
         </div>
